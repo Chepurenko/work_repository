@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1, shrink-to-fit=no")
+    meta(http-equiv="X-UA-Compatible", content="ie=edge")
+    title Matroskin 
+    link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css", integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm", crossorigin="anonymous")
+    link(href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700" rel="stylesheet")
+    link(rel="stylesheet", href="./css/normalize.css")
+    link(rel="stylesheet" href="./css/stylesheet.css" type="text/css" charset="utf-8")
+    link(rel="stylesheet" href="./css/alsschlangeregular.css" type="text/css" charset="utf-8")
+    link(rel="stylesheet", href="./css/main.min.css")
+  body(id='body')
+    section(class="screen__header")
+      header(class="header")
+        nav(class="navbar navbar-expand-lg navbar-light")
+          img(class="logo" src="./img/logo.png", alt="logo")
+          button(class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation")
+            span(class="navbar-toggler-icon")
+          div(class="collapse navbar-collapse d-lg-flex justify-content-end" id="navbarNavDropdown")
+            ul(id="nav", class="navbar-nav d-lg-flex justify-content-between")
+              li(class="nav-item")
+                a(class="nav-link" href="#Available") Available Kittens
+              li(class="nav-item")
+                a(class="nav-link" href="#pedigree") pedigree
+              li(class="nav-item")
+                a(class="nav-link" href="#about") Facts about Maine Coon
+              li(class="nav-item")
+                a(class="nav-link" href="#Breeder") Breeder
+              li(class="nav-item")
+                a(class="nav-link" href="#Contact us") Contact us
+      div(class="header__content d-flex flex-column justify-content-between align-items-center")
+        img(class="header__logo", src="./img/matroskin.png", alt="big_logo")
+        img(class="header__title", src="./img/Maine Coon Cats.png", alt="title")
+        h3(class="search") On Sale Worldwide
+        a(id="Arrow", class="arrow", href="#")
+          svg(href="#Available", viewBox="0 0 52 34", enable-background="new 0 0 52 34", width="56px", height="36px" x="0px", y="0px")
+            polygon(href="#Available", class="polygon", stroke-width="3px", fill="#818181", points="0,0 26,20 52,0 52,13.8 26,34 0,14")
+    section(id="Available", class="screen__galary container d-flex flex-column justify-content-between align-items-center")
+      h2(class="galary__title") Available Kittens
+      div(id="carouselExampleIndicators" class="carousel slide" data-ride="carousel")
+        ol(class="carousel-indicators")
+          li(class="indicator", data-target="#carouselExampleIndicators" data-slide-to="0" class="active") 1
+          li(class="indicator", data-target="#carouselExampleIndicators" data-slide-to="1") 2
+          li(class="indicator", data-target="#carouselExampleIndicators" data-slide-to="2") 3
+          li(class="indicator", data-target="#carouselExampleIndicators" data-slide-to="3") 4
+          li(class="indicator", data-target="#carouselExampleIndicators" data-slide-to="4") 5
+        div(class="carousel-inner")
+          div(class="carousel-item active")
+            div(class="slide__container container")
+              div(class="row")
+                div(class="slide__item col-lg-4 col-md-6 col-12")
+                  div(class="slide__card")
+                    img(class="slide__img", src="./img/cat_slide_1.jpg", alt="kitti")
+                    p(class="slide__name") Matroskin, Dec 2017
+                div(class="slide__item col-lg-4 col-md-6 col-12")
+                  div(class="slide__card")
+                    img(class="slide__img", src="./img/cat_slide_2.jpg", alt="kitti")
+                    p(class="slide__name") Name, Age
+                div(class="slide__item col-lg-4 col-md-6 col-12")
+                  div(class="slide__card")
+                    img(class="slide__img", src="./img/cat_slide_3.jpg", alt="kitti")
+                    p(class="slide__name") Name, Age
+                div(class="slide__item col-lg-4 col-md-6 col-12")
+                  div(class="slide__card")
+                    img(class="slide__img", src="./img/cat_slide_4.jpg", alt="kitti")
+                    p(class="slide__name") Name, Age
+                div(class="slide__item col-lg-4 col-md-6 col-12")
+                  div(class="slide__card")
+                    img(class="slide__img", src="./img/cat_slide_5.jpg", alt="kitti")
+                    p(class="slide__name") Name, Age
+                div(class="slide__item col-lg-4 col-md-6 col-12")
+                  div(class="slide__card")
+                    img(class="slide__img", src="./img/cat_slide_6.jpg", alt="kitti")
+                    p(class="slide__name") Name, Age
+                div(class="slide__item col-lg-4 col-md-6 col-12")
+                  div(class="slide__card")
+                    img(class="slide__img", src="./img/cat_slide_7.jpg", alt="kitti")
+                    p(class="slide__name") Name, Age
+                div(class="slide__item col-lg-4 col-md-6 col-12")
+                  div(class="slide__card")
+                    img(class="slide__img", src="./img/cat_slide_8.jpg", alt="kitti")
+                    p(class="slide__name") Name, Age
+                div(class="slide__item col-lg-4 col-md-6 col-12")
+                  div(class="slide__card")
+                    img(class="slide__img", src="./img/cat_slide_9.jpg", alt="kitti")
+                    p(class="slide__name") Name, Age
+          div(class="carousel-item")
+            div(class="slide__container container")
+              div(class="row")
+                div(class="slide__item col-lg-4 col-md-6 col-12")
+                  div(class="slide__card")
+                    img(class="slide__img", src="./img/cat_slide_1.jpg", alt="kitti")
+                    p(class="slide__name") Matroskin, Dec 2017
+                div(class="slide__item col-lg-4 col-md-6 col-12")
+                  div(class="slide__card")
+                    img(class="slide__img", src="./img/cat_slide_2.jpg", alt="kitti")
+                    p(class="slide__name") Name, Age
+                div(class="slide__item col-lg-4 col-md-6 col-12")
+                  div(class="slide__card")
+                    img(class="slide__img", src="./img/cat_slide_3.jpg", alt="kitti")
+                    p(class="slide__name") Name, Age
+                div(class="slide__item col-lg-4 col-md-6 col-12")
+                  div(class="slide__card")
+                    img(class="slide__img", src="./img/cat_slide_4.jpg", alt="kitti")
+                    p(class="slide__name") Name, Age
+                div(class="slide__item col-lg-4 col-md-6 col-12")
+                  div(class="slide__card")
+                    img(class="slide__img", src="./img/cat_slide_5.jpg", alt="kitti")
+                    p(class="slide__name") Name, Age
+                div(class="slide__item col-lg-4 col-md-6 col-12")
+                  div(class="slide__card")
+                    img(class="slide__img", src="./img/cat_slide_6.jpg", alt="kitti")
+                    p(class="slide__name") Name, Age
+                div(class="slide__item col-lg-4 col-md-6 col-12")
+                  div(class="slide__card")
+                    img(class="slide__img", src="./img/cat_slide_7.jpg", alt="kitti")
+                    p(class="slide__name") Name, Age
+                div(class="slide__item col-lg-4 col-md-6 col-12")
+                  div(class="slide__card")
+                    img(class="slide__img", src="./img/cat_slide_8.jpg", alt="kitti")
+                    p(class="slide__name") Name, Age
+                div(class="slide__item col-lg-4 col-md-6 col-12")
+                  div(class="slide__card")
+                    img(class="slide__img", src="./img/cat_slide_9.jpg", alt="kitti")
+                    p(class="slide__name") Name, Age
+          div(class="carousel-item")
+            div(class="slide__container container")
+              div(class="row")
+                div(class="slide__item col-lg-4 col-md-6 col-12")
+                  div(class="slide__card")
+                    img(class="slide__img", src="./img/cat_slide_1.jpg", alt="kitti")
+                    p(class="slide__name") Matroskin, Dec 2017
+                div(class="slide__item col-lg-4 col-md-6 col-12")
+                  div(class="slide__card")
+                    img(class="slide__img", src="./img/cat_slide_2.jpg", alt="kitti")
+                    p(class="slide__name") Name, Age
+                div(class="slide__item col-lg-4 col-md-6 col-12")
+                  div(class="slide__card")
+                    img(class="slide__img", src="./img/cat_slide_3.jpg", alt="kitti")
+                    p(class="slide__name") Name, Age
+                div(class="slide__item col-lg-4 col-md-6 col-12")
+                  div(class="slide__card")
+                    img(class="slide__img", src="./img/cat_slide_4.jpg", alt="kitti")
+                    p(class="slide__name") Name, Age
+                div(class="slide__item col-lg-4 col-md-6 col-12")
+                  div(class="slide__card")
+                    img(class="slide__img", src="./img/cat_slide_5.jpg", alt="kitti")
+                    p(class="slide__name") Name, Age
+                div(class="slide__item col-lg-4 col-md-6 col-12")
+                  div(class="slide__card")
+                    img(class="slide__img", src="./img/cat_slide_6.jpg", alt="kitti")
+                    p(class="slide__name") Name, Age
+                div(class="slide__item col-lg-4 col-md-6 col-12")
+                  div(class="slide__card")
+                    img(class="slide__img", src="./img/cat_slide_7.jpg", alt="kitti")
+                    p(class="slide__name") Name, Age
+                div(class="slide__item col-lg-4 col-md-6 col-12")
+                  div(class="slide__card")
+                    img(class="slide__img", src="./img/cat_slide_8.jpg", alt="kitti")
+                    p(class="slide__name") Name, Age
+                div(class="slide__item col-lg-4 col-md-6 col-12")
+                  div(class="slide__card")
+                    img(class="slide__img", src="./img/cat_slide_9.jpg", alt="kitti")
+                    p(class="slide__name") Name, Age
+          div(class="carousel-item")
+            div(class="slide__container container")
+              div(class="row")
+                div(class="slide__item col-lg-4 col-md-6 col-12")
+                  div(class="slide__card")
+                    img(class="slide__img", src="./img/cat_slide_1.jpg", alt="kitti")
+                    p(class="slide__name") Matroskin, Dec 2017
+                div(class="slide__item col-lg-4 col-md-6 col-12")
+                  div(class="slide__card")
+                    img(class="slide__img", src="./img/cat_slide_2.jpg", alt="kitti")
+                    p(class="slide__name") Name, Age
+                div(class="slide__item col-lg-4 col-md-6 col-12")
+                  div(class="slide__card")
+                    img(class="slide__img", src="./img/cat_slide_3.jpg", alt="kitti")
+                    p(class="slide__name") Name, Age
+                div(class="slide__item col-lg-4 col-md-6 col-12")
+                  div(class="slide__card")
+                    img(class="slide__img", src="./img/cat_slide_4.jpg", alt="kitti")
+                    p(class="slide__name") Name, Age
+                div(class="slide__item col-lg-4 col-md-6 col-12")
+                  div(class="slide__card")
+                    img(class="slide__img", src="./img/cat_slide_5.jpg", alt="kitti")
+                    p(class="slide__name") Name, Age
+                div(class="slide__item col-lg-4 col-md-6 col-12")
+                  div(class="slide__card")
+                    img(class="slide__img", src="./img/cat_slide_6.jpg", alt="kitti")
+                    p(class="slide__name") Name, Age
+                div(class="slide__item col-lg-4 col-md-6 col-12")
+                  div(class="slide__card")
+                    img(class="slide__img", src="./img/cat_slide_7.jpg", alt="kitti")
+                    p(class="slide__name") Name, Age
+                div(class="slide__item col-lg-4 col-md-6 col-12")
+                  div(class="slide__card")
+                    img(class="slide__img", src="./img/cat_slide_8.jpg", alt="kitti")
+                    p(class="slide__name") Name, Age
+                div(class="slide__item col-lg-4 col-md-6 col-12")
+                  div(class="slide__card")
+                    img(class="slide__img", src="./img/cat_slide_9.jpg", alt="kitti")
+                    p(class="slide__name") Name, Age
+          div(class="carousel-item")
+            div(class="slide__container container")
+              div(class="row")
+                div(class="slide__item col-lg-4 col-md-6 col-12")
+                  div(class="slide__card")
+                    img(class="slide__img", src="./img/cat_slide_1.jpg", alt="kitti")
+                    p(class="slide__name") Matroskin, Dec 2017
+                div(class="slide__item col-lg-4 col-md-6 col-12")
+                  div(class="slide__card")
+                    img(class="slide__img", src="./img/cat_slide_2.jpg", alt="kitti")
+                    p(class="slide__name") Name, Age
+                div(class="slide__item col-lg-4 col-md-6 col-12")
+                  div(class="slide__card")
+                    img(class="slide__img", src="./img/cat_slide_3.jpg", alt="kitti")
+                    p(class="slide__name") Name, Age
+                div(class="slide__item col-lg-4 col-md-6 col-12")
+                  div(class="slide__card")
+                    img(class="slide__img", src="./img/cat_slide_4.jpg", alt="kitti")
+                    p(class="slide__name") Name, Age
+                div(class="slide__item col-lg-4 col-md-6 col-12")
+                  div(class="slide__card")
+                    img(class="slide__img", src="./img/cat_slide_5.jpg", alt="kitti")
+                    p(class="slide__name") Name, Age
+                div(class="slide__item col-lg-4 col-md-6 col-12")
+                  div(class="slide__card")
+                    img(class="slide__img", src="./img/cat_slide_6.jpg", alt="kitti")
+                    p(class="slide__name") Name, Age
+                div(class="slide__item col-lg-4 col-md-6 col-12")
+                  div(class="slide__card")
+                    img(class="slide__img", src="./img/cat_slide_7.jpg", alt="kitti")
+                    p(class="slide__name") Name, Age
+                div(class="slide__item col-lg-4 col-md-6 col-12")
+                  div(class="slide__card")
+                    img(class="slide__img", src="./img/cat_slide_8.jpg", alt="kitti")
+                    p(class="slide__name") Name, Age
+                div(class="slide__item col-lg-4 col-md-6 col-12")
+                  div(class="slide__card")
+                    img(class="slide__img", src="./img/cat_slide_9.jpg", alt="kitti")
+                    p(class="slide__name") Name, Age
+      button(id="Breeder", class="contact__button") Contact Breeder
+    section(id="about", class="about")
+      h3(class="about__title") Facts about Maine Coon Cats
+      div(class="container")
+        div(class="row")
+          div(class="col-md-6 col-12")
+            h4(class="about__subtitle") Luxuriously Fluffy Coats
+            p The thick, fluffy coat of a Maine Coon is simply irresistible to look at and touch. Feeling the soft fur through your fingers (to the sound of satisfied purrs!) always makes you and your cat deliriously happy. And the way she looks so majestic with that flowing, glossy coat–simply gorgeous!
+            h4(class="about__subtitle") Affectionate Personalities
+            p Known as the “Gentle Giant” of the cat world, Coons make beloved family pets and wonderful therapy animals because of their calm and loving personalities, according to The Cat Fancier’s Association (CFA). And with all that fluff, we couldn’t be more willing to give these kitties all the pats that they could ever desire!
+            h4(class="about__subtitle") Wildcat Relatives
+            p One of a cat’s most endearing characteristics is how they’re like miniature versions of “big cats” in the wild, but this is especially true for Maine Coons. Their sturdy stance, huge paws, and adorable tufts (read on!) make you feel like you’re living with an exotic creature rather than a domesticated house cat.
+          div(class="col-md-6 col-12")
+            h4(class="about__subtitle") Big, Wildcat-Like Paws
+            p Another feature reminiscent of their “wild” relatives, a Maine Coon’s huge paws enable them to walk on top of the snow without sinking into it, according to the CFA. Despite their practical purpose, we love their paws for their massive, velvety softness.
+            h4(class="about__subtitle") Adorable Tufts
+            p One of a cat’s most endearing characteristics is how they’re like miniature versions of “big cats” in the wild, but this is especially true for Maine Coons. Their sturdy stance, huge paws, and adorable tufts (read on!) make you feel like you’re living with an exotic creature rather than a domesticated house cat.
+            h4(class="about__subtitle") Remarkable
+            p This breed’s impressive characteristics have lead multiple Maine Coon cats to world-renown fame! For example, there’s Cygnus, the gorgeous kitty who may have the world’s longest tail; Stewie, the longest cat to ever have lived; and there’s Samson, “the biggest cat in NYC,” who’s often mistaken for a bobcat.
+    footer(class="footer")
+      span(class="footer__title") Get notified about new kittens
+      form(action="#")
+        input(class="footer__input", type="email", placeholder="Email")
+      a(class="wrap", href="#")
+        span(class="social__contact") follow us
+        img(src="./img/facebook.png", alt="facebook")
+    script(src="https://code.jquery.com/jquery-3.2.1.min.js")
+    script(src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js", integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q", crossorigin="anonymous")
+    script(src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js", integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl", crossorigin="anonymous")
+    script(src='./js/main.js')
